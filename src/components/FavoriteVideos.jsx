@@ -18,7 +18,28 @@ const FavoriteVideos = ({ title }) => {
   }, []);
 
   if (!videoList.length) {
-    return <h2>Добавляй видео и пересматривай их позже</h2>;
+    return (
+      <>
+        <section className="video_list">
+          <div className="container">
+            <h2 className="video-list__title">{title}</h2>
+            <h3
+              className="video-list__title"
+              style={{
+                border: "2px solid #ff6a00",
+                borderRadius: "50px",
+                padding: "30px",
+                margin: "auto",
+                width: "max-content",
+                maxWidth: "90%",
+              }}
+            >
+              Добавляй видео и пересматривай их позже.
+            </h3>
+          </div>
+        </section>
+      </>
+    );
   }
 
   return (
