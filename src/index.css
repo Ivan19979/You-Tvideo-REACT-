@@ -391,6 +391,7 @@ iframe {
 .video__description {
   font-size: 24px;
   letter-spacing: 0.02em;
+  word-wrap: break-word;
 }
 
 .footer {

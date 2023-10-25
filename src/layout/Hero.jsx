@@ -11,14 +11,15 @@ const Hero = () => {
               <use href="/image/sprite.svg#star-ow"></use>
             </svg>
           </Link>
-          <svg
-            className="hero__logo"
-            viewBox="0 0 360 48"
-            role="img"
-            aria-label="Logo service You-Tvideo"
-          >
-            <use href="/image/sprite.svg#logo-white" />
-          </svg>
+          <Link to="/" className="hero__logo">
+            <svg
+              viewBox="0 0 360 48"
+              role="img"
+              aria-label="Logo service You-Tvideo"
+            >
+              <use href="/image/sprite.svg#logo-white" />
+            </svg>
+          </Link>
 
           <h1 className="hero__title">Смотри. Загружай. Создавай</h1>
           <p className="hero__tagline">Удобный видеохостинг для тебя</p>

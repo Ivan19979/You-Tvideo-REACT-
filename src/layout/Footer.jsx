@@ -21,7 +21,7 @@ const Footer = () => {
               Designer:
               <a
                 className="footer__developer-link"
-                href="https:/t.me/Mrshmallowww"
+                href="https://t.me/Mrshmallowww"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -32,7 +32,7 @@ const Footer = () => {
               Developer:
               <a
                 className="footer__developer-link"
-                href="https:/t.me/Shchurupoff"
+                href="https://t.me/Shchurupoff"
                 target="_blank"
                 rel="noreferrer"
               >
