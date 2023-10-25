@@ -17,6 +17,10 @@ const FavoriteVideos = ({ title }) => {
     });
   }, []);
 
+  if (!videoList.length) {
+    return <h2>Добавляй видео и пересматривай их позже</h2>;
+  }
+
   return (
     <>
       {error ? (
