@@ -1,7 +1,14 @@
 {
   "short_name": "You TVideo",
-  "name": "You TVideo - удобный видеохостинг для тебя",
-  "start_url": "/index.html",
+  "name": "You TVideo",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
   "display": "standalone",
   "theme_color": "#FF6A00",
   "background_color": "#ffffff"
